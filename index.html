@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <!-- font awesome cdn se link li to use the icons -->
+    <!-- amazon.com clone  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-deliver border">
+                    <p id="p1">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p id="p2">India</p>
+                    </div>
+            </div>
+            <div class="nav-search">
+                    <select>
+                        <option>All</option>
+                    </select>
+                    <input type="search" placeholder="Search Amazon">
+                  <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+          </div>
+          
+          <div class="nav-acc border">
+            <p><span id="acc1">Hello,sign in</span></p>
+            <p id="acc2">Account & Lists</p>
+          </div>
+          <div class="nav-return border">
+            <p><span id="ret1">Returns</span></p>
+            <p id="ret2">& Orders</p>
+          </div>
+          <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+           <span id="textcart">Cart</span> 
+          </div>
+        </div>
+
+        <!-- panel -->
+        <div class="panel">
+            <div class="menu-icon ">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+                <a>All</a>
+            </div>
+            <div class="panel-ops">
+            <a class="border">Today's Deals</a>
+            <a class="border">Customer Service</a>
+            <a class="border">Registry</a>
+            <a class="border">Gift Cards</a>
+            <a id="sell"class="border">Sell</a>
+            </div>
+        <div class="list2">
+            <a class="border">Shop deals in Electronics</a>
+        </div>
+    </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></div>
+    </div>
+   
+    <div class="shop-section">
+        <div class="box">
+            <h2>Home & Kitchen Under $30</h2>
+            <div class="box-image changeh" style="background-image: url('box1_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Refresh your space</h2>
+            <div class="img4-2">
+                <div class="box-image4-2" id="img11" style="background-image: url('Space_1.jpg');"></div>
+                <div class="box-image4-2" id="img22" style="background-image: url('Space_2.jpg');"></div>
+                <span id="text11">Dining</span>
+                <span id="text22">Home</span>
+                <div class="box-image4-2" id="img33"  style="background-image: url('Space_3.jpg');"></div>
+                <div class="box-image4-2" id="img44"  style="background-image: url('Space_4.jpg');"></div>
+                <span id="text33">Kitchen</span>
+                <span id="text44">Health and Beauty</span>
+            </div>
+            
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Computers & Accessories</h2>
+            <div class="box-image" style="background-image: url('box3_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Electronics</h2>
+            <div class="box-image" style="background-image: url('box4_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Beauty picks</h2>
+            <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+            <a href="#">Shop now</a>
+        </div>
+        <div class="box">
+            <h2>Shop Pet supplies</h2>
+            <div class="box-image"  style="background-image: url('box6_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>New arrivals in Toys</h2>
+            <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Discover fashion trends</h2>
+            <div class="box-image" style="background-image: url('box8_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+
+        <div class="box">
+            <h2>Deals & Promotions</h2>
+            <div class="box-image" style="background-image: url('box9_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Gaming accessories</h2>
+            <div class="img4">
+                <div class="box-image4" id="img1" style="background-image: url('Gaming_1.jpg');"></div>
+                <div class="box-image4" id="img2" style="background-image: url('Gaming_2.jpg');"></div>
+                <span id="text1">Headsets</span>
+                <span id="text2">Keyboards</span>
+                <div class="box-image4" id="img3"  style="background-image: url('Gaming_3.jpg');"></div>
+                <div class="box-image4" id="img4"  style="background-image: url('Gaming_4.jpg');"></div>
+                <span id="text3">Computer mice</span>
+                <span id="text4">Chairs</span>
+            </div>
+            
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Shop activity trackers and smartwatches</h2>
+            <div class="box-image changeh"  style="background-image: url('box11_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Shop Laptops & Tablets</h2>
+            <div class="box-image" style="background-image: url('box12_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Deals in Tools and Home Improvement</h2>
+            <div class="box-image changeh" style="background-image: url('box13_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Kindle E readers</h2>
+            <div class="box-image" style="background-image: url('box14_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>Create with strip lights</h2>
+            <div class="box-image" style="background-image: url('box15_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        <div class="box">
+            <h2>For your Fitness Needs</h2>
+            <div class="box-image changew" style="background-image: url('box16_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+   
+    </div>
+  
+        <div class="bk-section">
+            <h2>Top Sellers in Books for you</h2>
+            <div class="singleBk">
+                  <div class="Bk Bkincreasew" style="background-image: url('bk1.jpg');"></div>
+                  <div class="Bk Bkincreasew" style="background-image: url('bk2.jpg');"></div>
+                  <div class="Bk Bkincreasew" style="background-image: url('bk3.jpg');"></div>
+                  <div class="Bk" style="background-image: url('bk4.jpg');"></div>
+                  <div class="Bk" style="background-image: url('bk5.jpg');"></div>
+                  <div class="Bk" style="background-image: url('bk6.jpg');"></div>
+                  <div class="Bk" style="background-image: url('bk7.jpg');"></div>
+                  <div class="Bk Bkdecreasew" style="background-image: url('bk8.jpg');"></div>
+                  <div class="Bk Bkincreasew" style="background-image: url('bk9.jpg');"></div>    
+            </div>
+        </div>
+ 
+
+    <div class="signin">
+        <p>See personalized recommendations</p>
+        <button id="sign">Sign in</button>
+        <p id="newcustomer">New customer? <a href="">Start here.</a> </p>
+    </div>
+
+  <hr>
+<footer>
+    <div class="foot-panel1">
+        <p id="panel1">Back to top</p>
+    </div>
+
+    <div class="foot-panel2">
+        <div class="foot-div1">
+            <p class="foot-heading">Get to Know Us</p>
+            <ul>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+        </div>
+
+
+        <div class="foot-div2">
+            <p class="foot-heading">Make Money with Us</p>
+            <ul>
+                <a href="#">Sell products on Amazon</a>
+                <a href="#">Sell on Amazon Business</a>
+                <a href="#">Sell apps on Amazon</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Self-Publish with Us</a>
+                <a href="#">Host an Amazon Hub</a>
+                <a href="#"> See More Make Money with Us</a>
+            </ul>
+        </div>
+    
+        <div class="foot-div3">
+            <p class="foot-heading">Amazon Payment Products</p>
+            <ul>
+                <a href="#">Amazon Business Card</a>
+                <a href="#">Shop with Points</a>
+                <a href="#">Reload Your Balance</a>
+                <a href="#">Amazon Currency Converter</a>
+            </ul>
+        </div>
+    
+        <div class="foot-div4">
+            <p class="foot-heading">Let Us Help You</p>
+            <ul>
+                <a href="#">Amazon and COVID-19</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Shipping Rates & Policies</a>
+                <a href="#">Returns & Replacements</a>
+                <a href="#">Manage Your Content and Devices</a>
+                <a href="#">Amazon Assistant</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+    </div>
+    <hr class="rule-panel3">
+    <div class="foot-panel3">
+        <div class="foot-logo"></div>
+    </div>
+    <div class="foot-panel4">
+        <a href="#">Conditions of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Your Ads Privacy Choices</a>
+        <p>	&copy;1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </div>
+  
+</footer>
+</body>
+</html>
